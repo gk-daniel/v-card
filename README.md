@@ -3,7 +3,7 @@
 <p align="center">
   <img src="./00-config/readme/screenshot.png" alt="V-Card Demo" height="300" style="border: 1px solid white; display: block; margin: 0 auto;">
   <br>
-  <b>Demo:</b> <a href="https://dn.gooko.org/vue/card/" target="_blank">V-Card</a>
+  <a href="https://dn.gooko.org/vue/card/" target="_blank">View a demo</a>
 </p>
 
 ## Description
