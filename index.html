@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Daniel G. Kostyushko</title>
+     <!-- Add Favicon -->
+     <link rel="icon" href="./00-config/assets/favicon/favicon.png" type="image/x-icon" />
+    <!-- Import Icons -->
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <!-- Import Styles -->
+    <link rel="stylesheet" href="./00-config/style/styles.css" />
+    <!-- Import Vue.js -->
+    <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <app />
+    </div>
+
+    <!-- Import App -->
+    <script src="./app.js"></script>
+
+    <!-- Import Components -->
+    <script src="./01-atoms/Ribbons.js"></script>
+    <script src="./01-atoms/Buttons.js"></script>
+    <script src="./01-atoms/Images.js"></script>
+    <script src="./01-atoms/Links.js"></script>
+    <script src="./02-molecules/ProfileImage.js"></script>
+    <script src="./02-molecules/ProfileTitle.js"></script>
+    <script src="./02-molecules/ProfileActions.js"></script>
+    <script src="./02-molecules/ProfileLinks.js"></script>
+    <script src="./03-organism/BusinessCard.js"></script>
+    <script src="./03-organism/YoutubeVideoPlayer.js"></script>
+
+    <!-- Mount App -->
+    <script>
+      const mountedApp = app.mount("#app");
+    </script>
+  </body>
+</html>
