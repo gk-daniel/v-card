@@ -1,117 +1,115 @@
-# V-CARD
+# V-Card
 
-Demo: https://dn.gooko.org/vue/card/
+**Demo**: [V-Card](https://dn.gooko.org/vue/card/)
 
-In this Vue 3 project, we demonstrate the beauty of simplicity and efficiency by exclusively utilizing CDN connections for seamless deployment. Embracing the Atomic Design structure, our components are thoughtfully organized into distinct levels—atoms, molecules, organisms, and templates—fostering reusability, maintainability, and a systematic approach to building scalable applications
+## Description
 
-## Table of Content
+In this Vue 3 project, we showcase the elegance of simplicity and efficiency, utilizing CDN connections exclusively for seamless deployment. Embracing the Atomic Design structure, our components are thoughtfully organized into distinct levels—atoms, molecules, organisms, and templates—fostering reusability, maintainability, and a systematic approach to building scalable applications.
 
-**1. Installation**
-* 1.1. CDN
-* 1.2. Icons
+## Table of Contents
 
-**2. Contribution**
-* 2.1. Commit Messages
-* 2.2. Merge Request
+- [V-Card](#v-card)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [1. Installation](#1-installation)
+    - [1.1. CDN](#11-cdn)
+    - [1.2. Icons](#12-icons)
+    - [1.3. App](#13-app)
+  - [2. Contribution](#2-contribution)
+    - [2.1. Commit Messages](#21-commit-messages)
+    - [2.2. Merge Request](#22-merge-request)
 
-# 1. Installation
-## 1.1. CDN
+## 1. Installation
 
-- <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
+### 1.1. CDN
 
-Source: https://vuejs.org/
+- Add Vue.js CDN: `<script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>`
+   - Source: [https://vuejs.org/](https://vuejs.org/)
 
-## 1.2. Icons
+### 1.2. Icons
 
--  <script src="https://unpkg.com/phosphor-icons"></script>
+- Add Phosphor Icons CDN: `<script src="https://unpkg.com/phosphor-icons"></script>`
+   - Source: [https://phosphoricons.com/](https://phosphoricons.com/)
 
-Source: https://phosphoricons.com/
+### 1.3. App
 
-## 1.3. App
+- Include the App script: `<script src="./app.js"></script>`
 
-- <script src="./app.js"></script>
+## 2. Contribution
 
-# 2. Contribution
+### 2.1. Commit Messages
 
-## 2.1. Commit Messages
+Follow the guidelines for writing commit messages to maintain clarity and consistency in version control.
 
-Source: https://gist.github.com/stephenparish/9941e89d80e2bc58a153
+**Types**
 
-### Types
+The first part of the commit message indicates the type of change:
 
-The first part of the commit message 
+| Type   | Description               |
+|--------|---------------------------|
+| feat   | Feature                   |
+| fix    | Bug fix                   |
+| docs   | Documentation             |
+| style  | Formatting, missing semicolons |
+| visual | SCSS file changes         |
+| refactor | Code refactoring         |
+| test   | Adding tests              |
+| build  | Build system or external dependencies   |
+| chore  | Maintenance or upgrades   |
+| revert | Reverts a previous commit |
 
-| Definition | Description  |
-|-----------------|:-------------|
-| feat     | feature |
-| fix      | fix bugs 
-| docs     | documentation |
-| style    | formatting, missing semi colons |
-| visual   | scss filed 
-| refactor | replacing or fix without any changes for user |
-| test     | adding tests |
-| build    | new dependance 
-| chore    | maintain, upgrades |
-| revert   | Reverts a previous commit |
+Example: `feat: add family name textbox in Registration.vue`
 
-Example: feat: add familyname textbox in Registration.vue
+**Scope**
 
-### Scope
+The second part of the commit message defines the scope of the change:
 
-The second part of the commit message
+| Scope | Description           |
+|-------|-----------------------|
+| hp    | Home Page             |
+| cp    | Category Page         |
+| srp   | Search Result Page    |
+| pdp   | Product Detail Page   |
 
-| Definition | Description  |
-|-----------------|:-------------|
-| hp    | Home Page |
-| cp    | Category Page |
-| srp   | Search Result Page |
-| pdp   | Product Detail Page |
+Example: `feat(hp), fix(pdp)`
 
-Example: feat(hp), fix(pdp)
+**Body**
 
-### Body
+The third part of the commit message provides a detailed description of the change.
 
-The third part of the commit message (description)
+- Set: `fix(srp): correct search bar for Product.vue`
+- Add: `feat(pdp): add BoxPricing.vue`
+- Remove: `test(pdp): remove old test for a BoxPricing.vue`
+- Correct: `refactor(pdp): correct path for Product.vue inside Home.vue`
 
-| Definition | Description  |
-|-----------------|:-------------|
-| set       | fix(srp): correct search bar for Product.vue |
-| add       | feat(pdp): add BoxPricing.vue |
-| remove    | test(pdp): remove old test for a BoxPricing.vue |
-| correct   | refactor(pdp): correct path for Product.vue inside Home.vue |
+### 2.2. Merge Request
 
-## 2.2. Merge Request
+When creating a Merge Request (MR), follow these guidelines for a smooth review process.
 
-### Open MR
+**Open MR**
 
-- master
-- feature/title
-- release/title
-- hotfix/title
+- Create MR from branches: master, feature/title, release/title, hotfix/title
 
-### Review of MR
+**Review of MR**
 
-#### 1. Formality
+1. Formality:
+   - Check correct branch name
+   - Verify correct commits
+   - Validate the syntax of changes
 
-- Correct name of the branch
-- Correct commits
-- Correct syntax of changes
+2. Visual Changes:
+   - Verify correct visual changes (UX/UI)
 
-#### 2. Visual Changes
+3. Functional Changes:
+   - Review browser console
+   - Test refreshing the page
 
-- Correct visual changes (UX/UI)**
+**Conclusions**
 
-#### 3. Functional Changes
+If everything is correct, comment on the MR with the following message:
 
-- Browser console
-- Refresh the page
-
-#### Conclusions
-
-If everything correct comment the MR with following message
-
-| Formality | Visual Changes | Functional Changes |
-| ------ | ------ | ------ |
-| ✓ correct branch name | ✓ correct css syntax | ✓ correct js syntax
-| ✓ correct commits  |   | ✓ correct refreshing the page
-| ✓ correct code syntax  |   | ✓ correct configuration
+| Formality          | Visual Changes       | Functional Changes     |
+|-------------------|----------------------|------------------------|
+| ✓ correct branch name  | ✓ correct css syntax    | ✓ correct js syntax           |
+| ✓ correct commits       |                        | ✓ correct refreshing the page |
+| ✓ correct code syntax   |                        | ✓ correct configuration       |
