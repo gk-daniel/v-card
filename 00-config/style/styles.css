@@ -1,0 +1,355 @@
+/* 
+* =================================== 
+* Global Style | index.html
+* =================================== 
+*/
+
+:root {
+  --primary-bg: #000;
+  --video-overlay-color: rgba(0, 0, 0, 0.15);
+  --text-color: #f1f3f3;
+  --text-secondary: #b5b9c8;
+  --accent-color: #3772ff;
+  --secondary-bg: #2c333e;
+
+  /* New color variables */
+  --link-color: #7d8396;
+  --link-hover-color: var(--text-color);
+  --btn-hover-color: var(--text-secondary);
+  --profile-hover-bg: #020e20d6;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-bg);
+  background-image: url('https://dn.gooko.org/projects/vue/card/00-config/assets/images/background.png');
+}
+
+a {
+  text-decoration: none;
+}
+
+article {
+  background-image: unset;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: unset;
+  }
+  article {
+    background-image: url('https://dn.gooko.org/projects/vue/card/00-config/assets/images/background.png');
+  }
+  
+}
+
+/* 
+* =================================== 
+* 03-organism/YoutubeVideoPlayer.js
+* =================================== 
+*/
+
+.video-wrapper,
+.background-video {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 = 0.5625) */
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--video-overlay-color);
+}
+
+.video-iframe,
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+/* 
+* =================================== 
+* 03-organism/BusinessCard.js
+* =================================== 
+*/
+
+.profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+  max-width: 500px;
+  background-color: var(--primary-bg);
+  border-radius: 16px;
+  position: relative;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+  text-align: center;
+  color: var(--text-color);
+  border: 1px solid #ffffff24;
+}
+
+
+@media (min-width: 768px) {
+.profile {
+  transition: 1.5s;
+  opacity: .5;
+}
+
+  .profile:hover {
+    opacity: 1;
+    border: 1px solid #ffffff54;
+    transform: scale(1.05);
+  }
+
+  .profile .btn--primary {
+    transition: 1s;
+    filter: grayscale(1);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 0 20px;
+  }
+
+  .profile:hover .btn--primary {
+    filter: grayscale(0.5);
+  }
+
+  .profile .btn--primary:hover {
+    filter: grayscale(0);
+    transform: scale(1.05);
+  }
+}
+
+.profile:after {
+  content: "";
+  display: block;
+  top: -3px;
+  left: -3px;
+  bottom: -3px;
+  right: -3px;
+  z-index: -1;
+  position: absolute;
+  border-radius: 16px;
+}
+
+/* 
+- =================================== 
+- 02-molecules/ProfileImage.js
+- =================================== 
+*/
+
+.profile-image {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 175px;
+  height: 175px;
+  position: relative;
+}
+
+.profile-image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.profile-username {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+.profile-user-handle {
+  color: var(--text-secondary);
+}
+
+/* 
+- =================================== 
+- 02-molecules/ProfileActions.js
+- =================================== 
+*/
+
+.profile-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-actions .btn--primary a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.btn {
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  line-height: 1;
+  transition: 0.15s ease;
+}
+
+.btn--primary {
+  border-radius: 99em;
+  background-color: var(--accent-color);
+  background-image: linear-gradient(135deg, #5587ff, var(--accent-color));
+  color: var(--text-color);
+  padding: 0 1.375em;
+}
+
+.btn--icon {
+  transition: .8s;
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 3px solid var(--secondary-bg);
+  color: var(--text-secondary);
+}
+
+.btn--icon i {
+  transition: .8s;
+  font-size: 1.25em;
+  color: var(--link-color);
+}
+
+@media (min-width: 768px) {
+  .btn--icon:hover,
+  .btn--icon:focus {
+    border-color: var(--btn-hover-color);
+  }
+
+  .btn--icon:hover i,
+  .btn--icon:focus i {
+    color: var(--link-hover-color);
+  }
+}
+
+/* 
+- =================================== 
+- 02-molecules/ProfileLinks.js
+- ===================================
+*/
+
+.profile-links {
+  margin-top: 1.5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--link-color);
+  margin-right: 0.7rem;
+}
+
+.link i {
+  transition: .8s;
+  font-size: 1.3em;
+}
+
+@media (min-width: 768px) {
+  .link i:hover,
+  .link i:focus {
+    color: var(--link-hover-color);
+  }
+}
+
+/* 
+- =================================== 
+- 01-atoms/Ribbons.js
+- ===================================
+*/
+
+.corner-ribbons {
+  opacity: 0.1;
+  transition: 1.5s;
+}
+
+.corner-ribbons .cr {
+  font-weight: 700;
+  width: 400px;
+  padding: 16px;
+  position: absolute;
+  text-align: center;
+  color: #f0f0f0;
+  letter-spacing: 0.5em;
+  z-index: 9999;
+}
+
+.corner-ribbons .cr-sticky {
+  position: fixed;
+}
+
+/* Positions */
+
+.corner-ribbons .cr-bottom {
+  bottom: 60px;
+}
+
+.corner-ribbons .cr-left {
+  left: -100px;
+}
+
+/* Rotations */
+
+.corner-ribbons .cr-top.cr-right,
+.corner-ribbons .cr-bottom.cr-left {
+  transform: rotate(45deg);
+}
+
+/* Colors */
+
+.corner-ribbons .cr-green {
+  background-color: #00b15c;
+}
+
+@media (min-width: 768px) {
+  .corner-ribbons:hover {
+    opacity: 0.8;
+  }
+}
