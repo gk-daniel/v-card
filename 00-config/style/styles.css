@@ -35,7 +35,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--primary-bg);
-  background-image: url('https://dn.gooko.org/projects/vue/card/00-config/assets/images/background.png');
+  background-image: url('https://dn.gooko.org/vue/card/00-config/assets/images/background.png');
 }
 
 a {
@@ -53,7 +53,7 @@ article {
     background-image: unset;
   }
   article {
-    background-image: url('https://dn.gooko.org/projects/vue/card/00-config/assets/images/background.png');
+    background-image: url('https://dn.gooko.org/vue/card/00-config/assets/images/background.png');
   }
   
 }
