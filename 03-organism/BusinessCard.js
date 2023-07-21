@@ -6,14 +6,16 @@
 
 app.component('business-card', {
     template: `
-    <a href="https://dn.gooko.org/" target="_blank">
-      <article class="profile">
-        <profile-image></profile-image>
-        <profile-title></profile-title>
-        <profile-actions></profile-actions>
-        <profile-links></profile-links>
-      </article>
-    </a>
+    <div class="business-card">
+      <a href="https://dn.gooko.org/" target="_blank">
+        <article class="profile">
+          <profile-image></profile-image>
+          <profile-title></profile-title>
+          <profile-actions></profile-actions>
+          <profile-links></profile-links>
+        </article>
+      </a>
+    </div>
     `,
   });
   
