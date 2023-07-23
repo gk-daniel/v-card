@@ -1,0 +1,91 @@
+/* 
+* =================================== 
+* Desktop Style
+/ -----------------------------------
+/ secondary / minor file 
+* ===================================
+* 00-config/style/03-desktop.css
+* =================================== 
+*/
+
+@media (min-width: 768px) {
+  body {
+    background-image: unset;
+    transform: scale(1);
+  }
+  article {
+    background-image: url('https://dn.gooko.org/vue/card/00-config/assets/images/background.png');
+  }
+
+/* 
+* =================================== 
+* 03-organism/BusinessCard.js
+* =================================== 
+*/
+
+  .profile {
+    transition: 1.5s;
+    opacity: .5;
+  }
+
+  .profile:hover {
+    opacity: 1;
+    border: 1px solid #ffffff54;
+    transform: scale(1.05);
+  }
+
+  .profile .btn--primary {
+    transition: 1s;
+    filter: grayscale(1);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 0 20px;
+  }
+
+  .profile:hover .btn--primary {
+    filter: grayscale(0.5);
+  }
+
+  .profile .btn--primary:hover {
+    filter: grayscale(0);
+    transform: scale(1.05);
+  }
+
+/* 
+- =================================== 
+- 02-molecules/ProfileActions.js
+- =================================== 
+*/
+
+  .btn--icon:hover,
+  .btn--icon:focus {
+    border-color: var(--btn-hover-color);
+  }
+
+  .btn--icon:hover i,
+  .btn--icon:focus i {
+    color: var(--link-hover-color);
+  }
+
+/* 
+- =================================== 
+- 02-molecules/ProfileLinks.js
+- ===================================
+*/
+
+  .link i:hover,
+  .link i:focus {
+    color: var(--link-hover-color);
+  }
+
+/* 
+- =================================== 
+- 01-atoms/Ribbons.js
+- ===================================
+*/
+
+  .corner-ribbons:hover {
+    opacity: 0.8;
+  }
+}

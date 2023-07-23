@@ -1,0 +1,32 @@
+/* 
+* =================================== 
+* Setup
+/ -----------------------------------
+/ setup variables & reset layout
+* ===================================
+* 00-config/style/01-setup.css
+* =================================== 
+*/
+
+:root {
+  --primary-bg: #000;
+  --video-overlay-color: rgba(0, 0, 0, 0.15);
+  --text-color: #f1f3f3;
+  --text-secondary: #b5b9c8;
+  --accent-color: #3772ff;
+  --secondary-bg: #2c333e;
+
+  /* New color variables */
+  --link-color: #7d8396;
+  --link-hover-color: var(--text-color);
+  --btn-hover-color: var(--text-secondary);
+  --profile-hover-bg: #020e20d6;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
