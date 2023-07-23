@@ -3,6 +3,6 @@
 app.component('profile-title', {
   template: `
   <h2 class="profile-username">Daniel G. Kostyushko</h2>
-  <small class="profile-user-handle">senior software engineer</small>
+  <h3 class="profile-user-handle">senior software engineer</h3>
   `,
 });

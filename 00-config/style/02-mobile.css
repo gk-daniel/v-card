@@ -83,8 +83,7 @@ textarea {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 3rem;
-  max-width: 500px;
+  padding: 7vw;
   background-color: var(--primary-bg);
   border-radius: 16px;
   position: relative;
@@ -103,8 +102,8 @@ textarea {
 .profile-image {
   border-radius: 50%;
   overflow: hidden;
-  width: 175px;
-  height: 175px;
+  width: 275px;
+  height: 275px;
   position: relative;
 }
 
@@ -118,13 +117,20 @@ textarea {
 
 .profile-username {
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 4vw;
   letter-spacing: 2px;
-  font-weight: 600;
-  margin-top: 1.5rem;
+  margin-top: 3.5rem;
 }
 
+/* 
+- =================================== 
+- 02-molecules/ProfileTitle.js
+- =================================== 
+*/
+
 .profile-user-handle {
+  font-size: 3vw;
+  font-weight: 100;
   color: var(--text-secondary);
 }
 
@@ -135,7 +141,7 @@ textarea {
 */
 
 .profile-actions {
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -144,7 +150,7 @@ textarea {
 .profile-actions .btn--primary a {
   text-decoration: none;
   letter-spacing: 3px;
-  font-size: 12px;
+  font-size: 5vw 6vw;
   text-transform: uppercase;
 }
 
@@ -163,18 +169,21 @@ textarea {
 
 .btn--primary {
   border-radius: 99em;
+  letter-spacing: 2px;
+  padding: 33px 35px;
+  text-transform: uppercase;
   background-color: var(--accent-color);
   background-image: linear-gradient(135deg, #5587ff, var(--accent-color));
   color: var(--text-color);
-  padding: 0 1.375em;
 }
 
 .btn--icon {
   transition: .8s;
-  height: 46px;
-  width: 46px;
+  font-size: 22px;
+  height: 62px;
+  width: 62px;
+  margin: 0 10px;
   border-radius: 50%;
-  margin-right: 10px;
   border: 3px solid var(--secondary-bg);
   color: var(--text-secondary);
 }
@@ -192,13 +201,14 @@ textarea {
 */
 
 .profile-links {
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
 }
 
 .link {
   text-decoration: none;
   color: var(--link-color);
-  margin-right: 0.7rem;
+  margin: 0 0.9rem;
+  font-size: 28px;
 }
 
 .link i {

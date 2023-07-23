@@ -26,6 +26,12 @@
   .profile {
     transition: 1.5s;
     opacity: .5;
+    padding: 3rem;
+  }
+
+  .profile-image {
+    width: 175px;
+    height: 175px;
   }
 
   .profile:hover {
@@ -37,8 +43,6 @@
   .profile .btn--primary {
     transition: 1s;
     filter: grayscale(1);
-    text-transform: uppercase;
-    letter-spacing: 2px;
     font-size: 12px;
     padding: 0 20px;
   }
@@ -53,15 +57,15 @@
   }
 
 /* 
-* =================================== 
-* 03-organism/YoutubeVideoPlayer.js
-* =================================== 
+- =================================== 
+- 02-molecules/ProfileImage.js
+- =================================== 
 */
 
-  .video-wrapper,
-  .background-video {
-    display: block;
-  }
+.profile-username {
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+}
 
 /* 
 - =================================== 
@@ -69,21 +73,54 @@
 - =================================== 
 */
 
-  .btn--icon:hover,
-  .btn--icon:focus {
-    border-color: var(--btn-hover-color);
-  }
+.profile-actions {
+  margin-top: 1.5rem;
+}
 
-  .btn--icon:hover i,
-  .btn--icon:focus i {
-    color: var(--link-hover-color);
-  }
+.btn--icon {
+  margin: 0 5px;
+  font-size: 16px;
+  height: 42px;
+  width: 42px;
+}
+
+.btn--icon:hover,
+.btn--icon:focus {
+  border-color: var(--btn-hover-color);
+}
+
+.btn--icon:hover i,
+.btn--icon:focus i {
+  color: var(--link-hover-color);
+}
+
+/* 
+- =================================== 
+- 02-molecules/ProfileTitle.js
+- =================================== 
+*/
+
+.profile-user-handle {
+  font-size: 1rem;
+  font-weight: 100;
+  padding-top: 5px;
+  color: var(--text-secondary);
+}
+
+.link {
+  font-size: 18px;
+  margin: 0 0.5rem;
+}
 
 /* 
 - =================================== 
 - 02-molecules/ProfileLinks.js
 - ===================================
 */
+
+  .profile-links {
+    margin-top: 1.5rem;
+  }
 
   .link i:hover,
   .link i:focus {
@@ -99,4 +136,15 @@
   .corner-ribbons:hover {
     opacity: 0.8;
   }
+}
+
+/* 
+* =================================== 
+* 03-organism/YoutubeVideoPlayer.js
+* =================================== 
+*/
+
+.video-wrapper,
+.background-video {
+  display: block;
 }
