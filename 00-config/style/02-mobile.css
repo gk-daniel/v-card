@@ -1,61 +1,35 @@
 /* 
 * =================================== 
-* Global Style | index.html
+* Mobile Style
+/ -----------------------------------
+/ mobile-first approach
+* ===================================
+* 00-config/style/02-mobile.css
 * =================================== 
 */
 
-:root {
-  --primary-bg: #000;
-  --video-overlay-color: rgba(0, 0, 0, 0.15);
-  --text-color: #f1f3f3;
-  --text-secondary: #b5b9c8;
-  --accent-color: #3772ff;
-  --secondary-bg: #2c333e;
-
-  /* New color variables */
-  --link-color: #7d8396;
-  --link-hover-color: var(--text-color);
-  --btn-hover-color: var(--text-secondary);
-  --profile-hover-bg: #020e20d6;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  line-height: 1.5;
-  min-height: 100vh;
-  font-family: 'Roboto', sans-serif;
   display: flex;
+  transform: scale(1.3);
+  font-family: 'Roboto', sans-serif;
   align-items: center;
   justify-content: center;
-  background-color: var(--primary-bg);
+  line-height: 1.5;
+  min-height: 100vh;
   background-image: url('https://dn.gooko.org/vue/card/00-config/assets/images/background.png');
+  background-color: var(--primary-bg);
+  background-size: cover;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 article {
   background-image: unset;
   background-position: center center;
   background-attachment: fixed;
-}
-
-@media (min-width: 768px) {
-  body {
-    background-image: unset;
-  }
-  article {
-    background-image: url('https://dn.gooko.org/vue/card/00-config/assets/images/background.png');
-  }
-  
 }
 
 /* 
@@ -83,6 +57,7 @@ article {
 .video-iframe,
 .background-video {
   position: absolute;
+  border: unset;
   top: 0;
   left: 0;
   width: 100%;
@@ -96,10 +71,6 @@ input,
 select,
 textarea {
   font: inherit;
-}
-
-a {
-  color: inherit;
 }
 
 /* 
@@ -117,44 +88,12 @@ a {
   background-color: var(--primary-bg);
   border-radius: 16px;
   position: relative;
-  border: 3px solid transparent;
   background-clip: padding-box;
   text-align: center;
   color: var(--text-color);
   border: 1px solid #ffffff24;
 }
 
-
-@media (min-width: 768px) {
-.profile {
-  transition: 1.5s;
-  opacity: .5;
-}
-
-  .profile:hover {
-    opacity: 1;
-    border: 1px solid #ffffff54;
-    transform: scale(1.05);
-  }
-
-  .profile .btn--primary {
-    transition: 1s;
-    filter: grayscale(1);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 12px;
-    padding: 0 20px;
-  }
-
-  .profile:hover .btn--primary {
-    filter: grayscale(0.5);
-  }
-
-  .profile .btn--primary:hover {
-    filter: grayscale(0);
-    transform: scale(1.05);
-  }
-}
 
 .profile:after {
   content: "";
@@ -259,18 +198,6 @@ a {
   color: var(--link-color);
 }
 
-@media (min-width: 768px) {
-  .btn--icon:hover,
-  .btn--icon:focus {
-    border-color: var(--btn-hover-color);
-  }
-
-  .btn--icon:hover i,
-  .btn--icon:focus i {
-    color: var(--link-hover-color);
-  }
-}
-
 /* 
 - =================================== 
 - 02-molecules/ProfileLinks.js
@@ -290,13 +217,6 @@ a {
 .link i {
   transition: .8s;
   font-size: 1.3em;
-}
-
-@media (min-width: 768px) {
-  .link i:hover,
-  .link i:focus {
-    color: var(--link-hover-color);
-  }
 }
 
 /* 
@@ -346,10 +266,4 @@ a {
 
 .corner-ribbons .cr-green {
   background-color: #00b15c;
-}
-
-@media (min-width: 768px) {
-  .corner-ribbons:hover {
-    opacity: 0.8;
-  }
 }
