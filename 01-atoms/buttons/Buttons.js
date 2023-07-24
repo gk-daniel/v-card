@@ -1,4 +1,8 @@
-// * 01-atoms/Buttons.js
+/* 
+* =================================== 
+* 01-atoms/buttons/Buttons.js
+* =================================== 
+*/
 
 app.component('buttons', {
   props: ['iconClass', 'href'],
@@ -10,4 +14,3 @@ app.component('buttons', {
     </a>
   `,
 });
-  

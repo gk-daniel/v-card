@@ -1,4 +1,8 @@
-// * 01-atoms/Links.js
+/* 
+* =================================== 
+* 01-atoms/links/Links.js
+* =================================== 
+*/
 
 app.component("links", {
   props: ["href", "icons"],

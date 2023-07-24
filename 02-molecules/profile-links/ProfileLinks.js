@@ -1,5 +1,10 @@
-// * 02-molecules/ProfileLinks.js
-// - <links> => 01-atoms/Links.js
+/* 
+* ============================================== 
+* 02-molecules/profile-links/ProfileLinks.js
+/ ----------------------------------------------
+/ - <links> => 01-atoms/Links.js
+* ============================================== 
+*/
 
 app.component("profile-links", {
   template: `

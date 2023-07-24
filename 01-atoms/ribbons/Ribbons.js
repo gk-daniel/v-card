@@ -1,4 +1,8 @@
-// * 01-atoms/Ribbons.js
+/* 
+* =================================== 
+* 01-atoms/Ribbons.js
+* =================================== 
+*/
 
 app.component("ribbons", {
     template: `

@@ -1,4 +1,8 @@
-// * 02-molecules/ProfileTitle.js
+/* 
+* ============================================== 
+* 02-molecules/profile-title/ProfileTitle.js
+* ============================================== 
+*/
 
 app.component('profile-title', {
   template: `
