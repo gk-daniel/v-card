@@ -1,0 +1,64 @@
+/* 
+? ============================================
+? 03-organism/business-card/business-card.css
+? ============================================
+*/
+
+.profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 7vw;
+  background-color: var(--primary-bg);
+  border-radius: 16px;
+  position: relative;
+  background-clip: padding-box;
+  text-align: center;
+  color: var(--text-color);
+  border: 1px solid #ffffff24;
+}
+
+/* 
+? -------------- 
+? - Desktop
+? --------------
+*/
+
+@media (min-width: 1024px) {
+  .profile {
+    transition: 1.5s;
+    opacity: 0.5;
+    padding: 3rem;
+  }
+
+  .profile-image {
+    width: 175px;
+    height: 175px;
+  }
+
+  .profile:hover {
+    opacity: 1;
+    border: 1px solid #ffffff54;
+    transform: scale(1.05);
+  }
+
+  .profile .btn--primary {
+    transition: 1s;
+    filter: grayscale(1);
+    font-size: 12px;
+    padding: 0 20px;
+  }
+
+  .profile:hover .btn--primary {
+    filter: grayscale(0.5);
+  }
+
+  .profile .btn--primary:hover {
+    filter: grayscale(0);
+    transform: scale(1.05);
+  }
+
+  .corner-ribbons:hover {
+    opacity: 0.8;
+  }
+}

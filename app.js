@@ -3,6 +3,7 @@
 // - <business-card> => 03-organism/BusinessCard.js
 
 const app = Vue.createApp({ });
+
 app.component('app', {
   data() {
     return {
