@@ -1,5 +1,10 @@
-// * 02-molecules/ProfileActions.js
-// - <buttons> => 01-atoms/Buttons.js
+/* 
+* ============================================== 
+* 02-molecules/profile-action/ProfileActions.js
+/ ----------------------------------------------
+/ - <buttons> => 01-atoms/Buttons.js
+* ==============================================
+*/
 
 app.component('profile-actions', {
   template: `

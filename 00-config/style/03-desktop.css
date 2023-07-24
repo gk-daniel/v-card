@@ -56,95 +56,18 @@
     transform: scale(1.05);
   }
 
-/* 
-- =================================== 
-- 02-molecules/ProfileImage.js
-- =================================== 
-*/
-
-.profile-username {
-  font-size: 1.1rem;
-  margin-top: 1.5rem;
-}
-
-/* 
-- =================================== 
-- 02-molecules/ProfileActions.js
-- =================================== 
-*/
-
-.profile-actions {
-  margin-top: 1.5rem;
-}
-
-.btn--icon {
-  margin: 0 5px;
-  font-size: 16px;
-  height: 42px;
-  width: 42px;
-}
-
-.btn--icon:hover,
-.btn--icon:focus {
-  border-color: var(--btn-hover-color);
-}
-
-.btn--icon:hover i,
-.btn--icon:focus i {
-  color: var(--link-hover-color);
-}
-
-/* 
-- =================================== 
-- 02-molecules/ProfileTitle.js
-- =================================== 
-*/
-
-.profile-user-handle {
-  font-size: 1rem;
-  font-weight: 100;
-  padding-top: 5px;
-  color: var(--text-secondary);
-}
-
-.link {
-  font-size: 18px;
-  margin: 0 0.5rem;
-}
-
-/* 
-- =================================== 
-- 02-molecules/ProfileLinks.js
-- ===================================
-*/
-
-  .profile-links {
-    margin-top: 1.5rem;
-  }
-
-  .link i:hover,
-  .link i:focus {
-    color: var(--link-hover-color);
-  }
-
-/* 
-- =================================== 
-- 01-atoms/Ribbons.js
-- ===================================
-*/
-
   .corner-ribbons:hover {
     opacity: 0.8;
   }
-}
 
-/* 
-* =================================== 
-* 03-organism/YoutubeVideoPlayer.js
-* =================================== 
-*/
+  /* 
+  * =================================== 
+  * 03-organism/YoutubeVideoPlayer.js
+  * =================================== 
+  */
 
-.video-wrapper,
-.background-video {
-  display: block;
+  .video-wrapper,
+  .background-video {
+    display: block;
+  }
 }
