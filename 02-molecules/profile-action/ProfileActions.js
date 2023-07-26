@@ -6,14 +6,14 @@
   * ==============================================
 */
 
-app.component("profile-actions", {
+app.component("ProfileActions", {
   template: `
-    <div class="profile-actions">
+    <div class="ProfileActions">
         <button class="btn btn--primary">
            Portfolio
          </button>
     </div>
-    <div class="profile-actions">
+    <div class="ProfileActions">
       <buttons :href="'https://gitlab.com/daniil.grudokkostyushko'" :icon-class="'ph-gitlab-logo'" />
       <buttons :href="'https://github.com/gk-daniel'" :icon-class="'ph-github-logo'" />
     </div>

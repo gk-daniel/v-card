@@ -1,22 +1,22 @@
 /* 
 * ===================================================== 
-* 03-organism/business-card/BusinessCard.js
+* 03-organism/BusinessCard/BusinessCard.js
 / -----------------------------------------------------
 / - <profile-image> - 02-molecules/ProfileImage.js
-/ - <profile-title> - 02-molecules/ProfileTitle.js
-/ - <profile-actions> - 02-molecules/ProfileActions.js
+/ - <ProfileTitle> - 02-molecules/ProfileTitle.js
+/ - <ProfileActions> - 02-molecules/ProfileActions.js
 / - <profile-links> - 02-molecules/ProfileLinks.js
 * ===================================================== 
 */
 
-app.component('business-card', {
+app.component('BusinessCard', {
   template: `
-    <div class="business-card">
+    <div class="BusinessCard">
       <a href="https://dn.gooko.org/" target="_blank">
         <article class="profile">
           <profile-image></profile-image>
-          <profile-title></profile-title>
-          <profile-actions></profile-actions>
+          <ProfileTitle></ProfileTitle>
+          <ProfileActions></ProfileActions>
           <profile-links></profile-links>
         </article>
       </a>
