@@ -2,8 +2,8 @@
   * ============================================== 
   * Main Component | app.js
   / ----------------------------------------------
-  / - <youtube-video-player> => 03-organism/YoutubeVideoPlayer.js
-  / - <business-card> => 03-organism/BusinessCard.js
+  / - <YoutubeVideoPlayer> => 03-organism/YoutubeVideoPlayer.js
+  / - <BusinessCard> => 03-organism/BusinessCard.js
   * ==============================================
 */
 
@@ -25,7 +25,7 @@ app.component('app', {
   },
   template: `
     <template v-if="isTabletAndDesktop">
-      <youtube-video-player
+      <YoutubeVideoPlayer
         :videoId="videoId"
         :autoplay="autoplay"
         :mute="mute"
@@ -34,10 +34,10 @@ app.component('app', {
         :showinfo="showinfo"
         :loop="loop"
         :playlist="playlist"
-      ></youtube-video-player>
+      ></YoutubeVideoPlayer>
       <ribbons />
     </template>
-    <business-card />
+    <BusinessCard />
   `,
   computed: {
     isTabletAndDesktop() {

@@ -3,7 +3,7 @@
 * 03-organism/video-player/YoutubeVideoPlayer.js
 * ============================================== 
 */
-app.component('youtube-video-player', {
+app.component('YoutubeVideoPlayer', {
   props: {
     // parameter after {url + /embed/ + videoId}
     videoId: {
