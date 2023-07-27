@@ -6,7 +6,7 @@
   * ============================================== 
 */
 
-app.component("profile-image", {
+app.component("ProfileImage", {
   template: `
     <div class="profile-image">
       <images :src="'https://dn.gooko.org/vue/card/00-config/assets/images/daniel-g-kostyushko.jpg'" />

@@ -34,7 +34,8 @@ app.component('app', {
         :showinfo="showinfo"
         :loop="loop"
         :playlist="playlist"
-      ></YoutubeVideoPlayer>
+      >
+      </YoutubeVideoPlayer>
       <ribbons />
     </template>
     <BusinessCard />
