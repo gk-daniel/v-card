@@ -23,7 +23,7 @@ app.component('app', {
         :playlist="playlist"
       >
       </YoutubeVideoPlayer>
-      <ribbons />
+      <Ribbons />
     </template>
     <BusinessCard />
   `,
