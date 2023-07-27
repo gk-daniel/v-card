@@ -1,7 +1,7 @@
 /* 
-* ============================================== 
-* 03-organism/video-player/YoutubeVideoPlayer.js
-* ============================================== 
+ * ============================================== 
+ * 03-organism/video-player/YoutubeVideoPlayer.js
+ * ============================================== 
 */
 
 app.component('YoutubeVideoPlayer', {

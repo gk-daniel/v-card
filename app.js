@@ -1,10 +1,10 @@
 /* 
-  * ============================================== 
-  * Main Component | app.js
-  / ----------------------------------------------
-  / - <YoutubeVideoPlayer> => 03-organism/YoutubeVideoPlayer.js
-  / - <BusinessCard> => 03-organism/BusinessCard.js
-  * ==============================================
+ * ============================================== 
+ * Main Component | app.js
+ / ----------------------------------------------
+ / - <YoutubeVideoPlayer> => 03-organism/YoutubeVideoPlayer.js
+ / - <BusinessCard> => 03-organism/BusinessCard.js
+ * ==============================================
 */
 
 const app = Vue.createApp({ });

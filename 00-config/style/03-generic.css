@@ -1,0 +1,50 @@
+/* 
+ * =================================== 
+ * Generic
+ / -----------------------------------
+ / global variables & config
+ * ===================================
+ * ./style/03-generic.css
+ * =================================== 
+*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+  min-height: 100vh;
+  background-image: url('https://dn.gooko.org/vue/card/00-config/assets/images/background.png');
+  background-color: var(--primary-bg);
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+article {
+  background-image: unset;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-image: unset;
+    transform: scale(1);
+  }
+  article {
+    background-image: url('https://dn.gooko.org/vue/card/00-config/assets/images/background.png');
+  }
+}

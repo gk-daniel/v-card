@@ -1,12 +1,12 @@
 /* 
-* ===================================================== 
-* 03-organism/BusinessCard/BusinessCard.js
-/ -----------------------------------------------------
-/ - <ProfileImage> - 02-molecules/ProfileImage.js
-/ - <ProfileTitle> - 02-molecules/ProfileTitle.js
-/ - <ProfileActions> - 02-molecules/ProfileActions.js
-/ - <ProfileLinks> - 02-molecules/ProfileLinks.js
-* ===================================================== 
+ * ===================================================== 
+ * 03-organism/BusinessCard/BusinessCard.js
+ / -----------------------------------------------------
+ / - <ProfileImage> - 02-molecules/ProfileImage.js
+ / - <ProfileTitle> - 02-molecules/ProfileTitle.js
+ / - <ProfileActions> - 02-molecules/ProfileActions.js
+ / - <ProfileLinks> - 02-molecules/ProfileLinks.js
+ * ===================================================== 
 */
 
 app.component('BusinessCard', {

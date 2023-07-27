@@ -1,18 +1,19 @@
 /* 
-? =================================== 
-? Global Style
-? =================================== 
+ ? =================================== 
+ ? Global Style | ITCSS
+ ? =================================== 
 */
 
-@import "./01-setup.css";
-@import "./02-mobile.css";
-@import "./03-desktop.css";
+@import "./01-settings.css";
+@import "./03-generic.css";
+@import "./06-components.css";
 
 /* 
-? =================================== 
-? Component Style
-? =================================== 
+ ? =================================== 
+ ? Component Style | A-Design
+ ? =================================== 
 */
 
+@import "../../01-atoms/index.css";
 @import "../../02-molecules/index.css";
 @import "../../03-organism/index.css";
