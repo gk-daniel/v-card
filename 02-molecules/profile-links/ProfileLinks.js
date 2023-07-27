@@ -6,7 +6,7 @@
   * ============================================== 
 */
 
-app.component("profile-links", {
+app.component("ProfileLinks", {
   template: `
     <div class="profile-links">
     <links :href="'https://www.linkedin.com/in/daniel-g-kostyushko/'" :icons="'ph-linkedin-logo'"/>
