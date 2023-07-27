@@ -4,15 +4,24 @@
   ? =================================================
 */
 
-.video-wrapper,
-.background-video {
+/* Video container with 16:9 aspect ratio */
+.video-wrapper {
   display: none;
   position: relative;
   width: 100%;
   padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 = 0.5625) */
 }
 
-.video-overlay {
+/* Background video container with 16:9 aspect ratio */
+.video-background {
+  display: none;
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 = 0.5625) */
+}
+
+/* Video overlay with custom background color */
+.video-background__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -21,8 +30,9 @@
   background-color: var(--video-overlay-color);
 }
 
-.video-iframe,
-.background-video {
+/* Video iframe and background video */
+.video-background__iframe,
+.video-background {
   position: absolute;
   border: unset;
   top: 0;
@@ -33,13 +43,6 @@
   z-index: -1;
 }
 
-button,
-input,
-select,
-textarea {
-  font: inherit;
-}
-
 /* 
 ? -------------- 
 ? - Desktop
@@ -48,7 +51,7 @@ textarea {
 
 @media (min-width: 1024px) {
   .video-wrapper,
-  .background-video {
+  .video-background {
     display: block;
   }
 }

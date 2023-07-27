@@ -4,6 +4,16 @@
   ? ============================================
 */
 
+.business-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.business-card__link {
+  text-decoration: none;
+}
+
 .profile {
   display: flex;
   align-items: center;
@@ -18,6 +28,11 @@
   border: 1px solid #ffffff24;
 }
 
+.profile-image {
+  width: 100px;
+  height: 100px;
+}
+
 /* 
 ? -------------- 
 ? - Desktop
@@ -29,11 +44,6 @@
     transition: 1.5s;
     opacity: 0.5;
     padding: 3rem;
-  }
-
-  .profile-image {
-    width: 175px;
-    height: 175px;
   }
 
   .profile:hover {

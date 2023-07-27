@@ -6,16 +6,16 @@
 
 app.component('YoutubeVideoPlayer', {
   template: `
-    <div class="background-video video-wrapper">
-      <div class="video-overlay"></div>
-      <iframe
-        :src="videoUrlWithParams"
-        :title="'Embedded YouTube video'"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-        class="video-iframe"
-      ></iframe>
-    </div>
+  <div class="video-background video-wrapper">
+  <div class="video-background__overlay"></div>
+    <iframe
+      :src="videoUrlWithParams"
+      :title="'Embedded YouTube video'"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      class="video-background__iframe"
+    ></iframe>
+  </div>  
   `,
   props: {
     // parameter after {url + /embed/ + videoId}
