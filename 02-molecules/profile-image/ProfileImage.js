@@ -8,8 +8,8 @@
 
 app.component("ProfileImage", {
   template: `
-    <div class="profile-image">
-      <images :src="'https://dn.gooko.org/vue/card/00-config/assets/images/daniel-g-kostyushko.jpg'" />
-    </div>
+  <div class="profile-image">
+    <images :src="'https://dn.gooko.org/vue/card/00-config/assets/images/daniel-g-kostyushko.jpg'" class="profile-image__img" />
+  </div>
   `,
 });

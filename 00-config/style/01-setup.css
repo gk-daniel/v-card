@@ -84,7 +84,19 @@
   color: var(--link-color);
 }
 
+/* 
+  ? -------------- 
+  ? - Desktop
+  ? --------------
+*/
+
 @media (min-width: 1024px) {
+  /* 
+    ? -------------- 
+    ? - Button
+    ? --------------
+  */
+  
   .btn--icon {
     margin: 0 5px;
     font-size: 16px;
