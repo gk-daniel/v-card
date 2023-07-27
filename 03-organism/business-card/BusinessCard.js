@@ -11,15 +11,15 @@
 
 app.component('BusinessCard', {
   template: `
-    <div class="business-card">
-      <a href="https://dn.gooko.org/" target="_blank">
-        <article class="profile">
-          <ProfileImage></ProfileImage>
-          <ProfileTitle></ProfileTitle>
-          <ProfileActions></ProfileActions>
-          <ProfileLinks></ProfileLinks>
-        </article>
-      </a>
-    </div>
+  <div class="business-card">
+    <a href="https://dn.gooko.org/" target="_blank" class="business-card__link">
+      <article class="profile">
+        <ProfileImage></ProfileImage>
+        <ProfileTitle></ProfileTitle>
+        <ProfileActions></ProfileActions>
+        <ProfileLinks></ProfileLinks>
+      </article>
+    </a>
+  </div>
     `,
 });
