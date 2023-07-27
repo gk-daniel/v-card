@@ -3,7 +3,20 @@
 * 03-organism/video-player/YoutubeVideoPlayer.js
 * ============================================== 
 */
+
 app.component('YoutubeVideoPlayer', {
+  template: `
+    <div class="background-video video-wrapper">
+      <div class="video-overlay"></div>
+      <iframe
+        :src="videoUrlWithParams"
+        :title="'Embedded YouTube video'"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        class="video-iframe"
+      ></iframe>
+    </div>
+  `,
   props: {
     // parameter after {url + /embed/ + videoId}
     videoId: {
@@ -45,18 +58,6 @@ app.component('YoutubeVideoPlayer', {
       default: 0,
     },
   },
-  template: `
-    <div class="background-video video-wrapper">
-      <div class="video-overlay"></div>
-      <iframe
-        :src="videoUrlWithParams"
-        :title="'Embedded YouTube video'"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-        class="video-iframe"
-      ></iframe>
-    </div>
-  `,
   computed: {
     videoUrlWithParams() {
       const embedUrl = `https://www.youtube.com/embed/${this.videoId}`;
