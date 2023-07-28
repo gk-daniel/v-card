@@ -4,7 +4,7 @@
  / -----------------------------------
  / global variables & config
  * ===================================
- * ./style/03-generic.css
+ * ./02-style/03-generic.css
  * =================================== 
 */
 
@@ -23,7 +23,7 @@ body {
   justify-content: center;
   line-height: 1.5;
   min-height: 100vh;
-  background-image: url('https://dn.gooko.org/vue/card/00-config/assets/images/background.png');
+  background-image: url('https://dn.gooko.org/vue/card/00-config/04-assets/images/background.png');
   background-color: var(--primary-bg);
   background-size: cover;
 }
@@ -45,6 +45,6 @@ article {
     transform: scale(1);
   }
   article {
-    background-image: url('https://dn.gooko.org/vue/card/00-config/assets/images/background.png');
+    background-image: url('https://dn.gooko.org/vue/card/00-config/04-assets/images/background.png');
   }
 }

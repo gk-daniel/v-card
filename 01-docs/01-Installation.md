@@ -1,4 +1,4 @@
-# 1. Installation
+## 1. Installation
 
 ## 1.1. CDN
 
@@ -9,7 +9,11 @@
 
 - Add Phosphor Icons CDN: `<script src="https://unpkg.com/phosphor-icons"></script>`
   - Source: [https://phosphoricons.com/](https://phosphoricons.com/)
-
 ## 1.3. App
 
 - Include the App script: `<script src="./app.js"></script>`
+
+## 
+### [Back to README](../README.md)
+
+## 

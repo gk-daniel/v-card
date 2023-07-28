@@ -1,4 +1,4 @@
-# 2. Contribution
+## 2. Contribution
 
 ## 2.1. Commit Messages
 
@@ -76,3 +76,7 @@ If everything is correct, comment on the MR with the following message:
 | ✓ correct branch name  | ✓ correct css syntax    | ✓ correct js syntax           |
 | ✓ correct commits       |                        | ✓ correct refreshing the page |
 | ✓ correct code syntax   |                        | ✓ correct configuration       |
+## 
+### [Back to README](../README.md)
+
+## 
