@@ -1,6 +1,6 @@
-# 2. Contribution
+## Contribution
 
-## 2.1. Commit Messages
+## Commit Messages
 
 Follow the guidelines for writing commit messages to maintain clarity and consistency in version control.
 
@@ -45,7 +45,7 @@ The third part of the commit message provides a detailed description of the chan
 - Remove: `test(pdp): remove old test for a BoxPricing.vue`
 - Correct: `refactor(pdp): correct path for Product.vue inside Home.vue`
 
-## 2.2. Merge Request
+## Merge Request
 
 When creating a Merge Request (MR), follow these guidelines for a smooth review process.
 
@@ -76,3 +76,7 @@ If everything is correct, comment on the MR with the following message:
 | ✓ correct branch name  | ✓ correct css syntax    | ✓ correct js syntax           |
 | ✓ correct commits       |                        | ✓ correct refreshing the page |
 | ✓ correct code syntax   |                        | ✓ correct configuration       |
+## 
+### [Back to README](../README.md)
+
+## 
