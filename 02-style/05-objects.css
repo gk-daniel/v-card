@@ -1,0 +1,22 @@
+/* 
+ ? =================================== 
+ ? 5. Objects
+ / -----------------------------------
+ / containers, grid system, paterns
+ ? ===================================
+ ? 02-style/05-objects.css
+ ? =================================== 
+*/
+
+article {
+    background-image: unset;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+  @media (min-width: 1024px) {
+    article {
+      background-image: url('https://dn.gooko.org/vue/card/00-config/04-assets/images/background.png');
+    }
+  }
+  
