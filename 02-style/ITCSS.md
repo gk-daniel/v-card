@@ -1,4 +1,12 @@
-# ITCSS (Inverted Triangle CSS)
+## Inverted Triangle CSS
+
+<p align="center">
+  <img src="../04-assets/docs/itcss.png" alt="Atomic Design" width="370" height="230" style="border: 1px solid white; display: block; margin: 0 auto;">
+  <br>
+  <a href="https://itcss.io/">ITSCSS</a>
+</p>
+
+## Description
 
 ITCSS stands for Inverted Triangle CSS, which is a methodology for organizing your CSS code in a scalable and maintainable way. It helps to structure your stylesheets based on specificity and maintain a clear separation of concerns. ITCSS follows the concept of an inverted triangle, where the more generic styles are at the top, and the more specific styles are at the bottom.
 
