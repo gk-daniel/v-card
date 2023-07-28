@@ -7,16 +7,22 @@
 </p>
 
 ## Description
-
 In this Vue 3 project, we showcase the elegance of simplicity and efficiency, utilizing CDN connections exclusively for seamless deployment. Embracing the Atomic Design structure, our components are thoughtfully organized into distinct levels—atoms, molecules, organisms, and templates—fostering reusability, maintainability, and a systematic approach to building scalable applications. Moreover, you can enjoy an example of using a YouTube video for the background using its setting in form of properties and configurate project style vie ITCSS structure.
 
-| <img src="./04-assets/docs/app.png" width="50%"> | <img src="./04-assets/docs/app.png" width="50%"> | <img src="./04-assets/docs/app.png" width="50%"> | <img src="./04-assets/docs/app.png" width="50%"> |
-|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:|
-|             Vue.js                 |             Atomic Design                 |             ITCSS                 |             BEM                 |
-
-
-
-
+<table align="center">
+  <tr>
+    <td align="center"><img src="./04-assets/docs/vue-logo.png" height="80px" width="100px"></td>
+    <td align="center"><img src="./04-assets/docs/a-design-logo.png" height="100px" width="110px"></td>
+    <td align="center"><img src="./04-assets/docs/itcss-logo.png" height="100px" width="110px"></td>
+    <td align="center"><img src="./04-assets/docs/bem.png"  height="100px" width="190px"></td>
+  </tr>
+  <tr>
+    <td align="center">Vue.js</td>
+    <td align="center">Atomic Design</td>
+    <td align="center">ITCSS</td>
+    <td align="center">BEM</td>
+  </tr>
+</table>
 
 ## Getting Started
 
