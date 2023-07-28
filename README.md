@@ -50,23 +50,19 @@ Here you can find technical documentation in the file system folder feed contain
 
 *<em> - Directory containing additional info about project. </em>*
 
-- `01-docs`: 
-  - [INTRO.md](./01-docs/00-Introduction.md)
+- `01-docs` => [INTRO.md](./01-docs/00-Introduction.md)
 
 *<em> - Directory containing stylesheets. </em>*
 
-- `02-style`: 
-  - [ITCSS.md](./02-style/ITCSS.md)
+- `02-style` => [ITCSS.md](./02-style/ITCSS.md)
 
 *<em> - Directory containing JavaScript files. </em>*
 
-- `03-components`: 
-     - [A-Design.md](./03-components/A-Design.md)
+- `03-components` => [A-Design.md](./03-components/A-Design.md)
 
 *<em> - Directory for storing assets like images and fonts. </em>*
 
-- `04-assets`: 
-     - [Media.md](./01-docs/01-Installation.md)
+- `04-assets` => [Media.md](./01-docs/01-Installation.md)
 
 ## Extensions of VS Code 
 
