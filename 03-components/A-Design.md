@@ -1,7 +1,7 @@
 ## Atomic Design
 
 <p align="center">
-  <img src="../04-assets/docs/a-design.png" alt="Atomic Design" width="700" height="200" style="border: 1px solid white; display: block; margin: 0 auto;">
+  <img src="../04-assets/01-docs/a-design.png" alt="Atomic Design" width="700" height="200" style="border: 1px solid white; display: block; margin: 0 auto;">
   <br>
   <a href="https://atomicdesign.bradfrost.com/" target="_blank">Atomic Design Structure</a>
 </p>
@@ -66,5 +66,3 @@ By following the Atomic Design structure, you can create a scalable and consiste
 ## 
 ### [Back to README](../README.md)
 ## 
-
-

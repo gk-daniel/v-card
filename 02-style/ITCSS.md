@@ -1,7 +1,7 @@
 ## Inverted Triangle CSS
 
 <p align="center">
-  <img src="../04-assets/docs/itcss.png" alt="Atomic Design" width="390" height="230" style="border: 1px solid white; display: block; margin: 0 auto;">
+  <img src="../04-assets/01-docs/itcss.png" alt="Atomic Design" width="390" height="230" style="border: 1px solid white; display: block; margin: 0 auto;">
   <br>
   <a href="https://itcss.io/">ITSCSS</a>
 </p>
