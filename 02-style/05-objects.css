@@ -16,7 +16,7 @@ article {
   
   @media (min-width: 1024px) {
     article {
-      background-image: url('https://dn.gooko.org/vue/card/00-config/04-assets/02-home/images/background.png');
+      background-image: url('../04-assets/02-home/images/background.png');
     }
   }
   

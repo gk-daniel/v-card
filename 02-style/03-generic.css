@@ -23,7 +23,7 @@ body {
   justify-content: center;
   line-height: 1.5;
   min-height: 100vh;
-  background-image: url('https://dn.gooko.org/vue/card/00-config/04-assets/02-home/images/background.png');
+  background-image: url('../04-assets/02-home/images/background.png');
   background-color: var(--primary-bg);
   background-size: cover;
 }
