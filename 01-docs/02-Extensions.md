@@ -1,4 +1,4 @@
-## 3. Extensions
+## Extensions
 
 *<em>- Recommended extensions for VS Code</em>*
 

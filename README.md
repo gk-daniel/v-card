@@ -8,36 +8,52 @@
 
 ## Description
 
-In this Vue 3 project, we showcase the elegance of simplicity and efficiency, utilizing CDN connections exclusively for seamless deployment. Embracing the Atomic Design structure, our components are thoughtfully organized into distinct levels—atoms, molecules, organisms, and templates—fostering reusability, maintainability, and a systematic approach to building scalable applications. Moreover, you can enjoy an example of using a YouTube video for the background using its setting in Vue 3.
+In this Vue 3 project, we showcase the elegance of simplicity and efficiency, utilizing CDN connections exclusively for seamless deployment. Embracing the Atomic Design structure, our components are thoughtfully organized into distinct levels—atoms, molecules, organisms, and templates—fostering reusability, maintainability, and a systematic approach to building scalable applications. Moreover, you can enjoy an example of using a YouTube video for the background using its setting in form of properties and configurate project style vie ITCSS structure.
 
 ## Getting Started
 
-- [1. Installation](./01-docs/01-Installation.md)
-- [2. Contribution](./01-docs/02-Contribution.md)
-- [3. Extensions](./01-docs/03-Extensions.md)
-- [4. Sources](./01-docs/04-Sources.md)
-- [5. License](./01-docs/05-License.md)
+*<em> - Clone project to your local machine: </em>*
 
-## Guideline
+```bash
+git clone https://github.com/gk-daniel/v-card.git
+```  
+
+*<em> - Navigate to the project directory using the cd command: </em>*
+
+```bash
+cd v-card
+```  
+
+*<em> - Open index file in browser  </em>*
+
+```css
+index.html
+```  
+
+## Structure of Project
 
 Here you can find technical documentation in the file system folder feed containing descriptions of the files and concepts that were used to build the code.
 
 *<em> - Directory containing stylesheets. </em>*
 
-- `css`: 
+- `02-style`: 
   - [ITCSS.md](./02-style/ITCSS.md)
 
 *<em> - Directory containing JavaScript files. </em>*
 
-- `js`: 
-     - [Vue.md](./01-docs/01-Installation.md)
+- `03-components`: 
+     - [A-Design.md](./01-docs/01-Installation.md)
 
 *<em> - Directory for storing assets like images and fonts. </em>*
 
-- `assets`: 
+- `04-assets`: 
      - [Media.md](./01-docs/01-Installation.md)
 
-*<em> - Directory containing Vue components. </em>*
+## Additional Information
 
--  `components`: 
-     - [A-Design.md](./01-docs/01-Installation.md)
+| Section              | Description                                |
+|----------------------|--------------------------------------------|
+[1. Contribution](./01-docs/01-Contribution.md) | Rules for contributing to the project              |
+[2. Extensions](./01-docs/02-Extensions.md)      | Visual Studia Code extensions     |
+[3. Sources](./01-docs/03-Sources.md)      | Sources to dependencies that was used |
+[4. License](./01-docs/04-License.md)  | MIT license information      |

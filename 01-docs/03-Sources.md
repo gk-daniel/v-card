@@ -1,4 +1,4 @@
-## 4. Sources
+## Sources
 
 *<em>- Links to used sources</em>*
 
