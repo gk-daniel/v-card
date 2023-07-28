@@ -25,7 +25,7 @@ Here you can find technical documentation in the file system folder feed contain
 *<em> - Directory containing stylesheets. </em>*
 
 - `css`: 
-  - [ITCSS.md](./01-docs/01-Installation.md)
+  - [ITCSS.md](./02-style/ITCSS.md)
 
 *<em> - Directory containing JavaScript files. </em>*
 
