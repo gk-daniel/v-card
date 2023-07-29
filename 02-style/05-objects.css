@@ -14,9 +14,8 @@ article {
     background-attachment: fixed;
   }
   
-  @media (min-width: 1024px) {
-    article {
-      background-image: url('../04-assets/02-home/images/background.png');
-    }
+@media (min-width: 1024px) {
+  article {
+    background-image: url('../04-assets/02-home/images/background.png');
   }
-  
+}
