@@ -1,7 +1,7 @@
 ## V-Card
 
 <p align="center">
-  <img src="./04-assets/01-docs/app.png" alt="V-Card Demo" height="300" style="border: 1px solid white; display: block; margin: 0 auto;">
+  <img src="./05-assets/01-docs/app.png" alt="V-Card Demo" height="300" style="border: 1px solid white; display: block; margin: 0 auto;">
   <br>
   <a href="https://dn.gooko.org/vue/card/" target="_blank">View a demo</a>
 </p>
@@ -11,10 +11,10 @@ In this Vue 3 project, we showcase the elegance of simplicity and efficiency, ut
 
 <table align="center">
   <tr>
-    <td align="center"><img src="./04-assets/01-docs/vue-logo.png" height="80px" width="100px"></td>
-    <td align="center"><img src="./04-assets/01-docs/a-design-logo.png" height="100px" width="110px"></td>
-    <td align="center"><img src="./04-assets/01-docs/itcss-logo.png" height="100px" width="110px"></td>
-    <td align="center"><img src="./04-assets/01-docs/bem.png"  height="100px" width="190px"></td>
+    <td align="center"><img src="./05-assets/01-docs/vue-logo.png" height="80px" width="100px"></td>
+    <td align="center"><img src="./05-assets/01-docs/a-design-logo.png" height="100px" width="110px"></td>
+    <td align="center"><img src="./05-assets/01-docs/itcss-logo.png" height="100px" width="110px"></td>
+    <td align="center"><img src="./05-assets/01-docs/bem.png"  height="100px" width="190px"></td>
   </tr>
   <tr>
     <td align="center">Vue.js</td>
@@ -54,15 +54,15 @@ Here you can find technical documentation in the file system folder feed contain
 
 *<em> - Directory containing stylesheets. </em>*
 
-- `02-style` => [ITCSS.md](./02-style/ITCSS.md)
+- `03-style` => [ITCSS.md](./03-style/ITCSS.md)
 
 *<em> - Directory containing JavaScript files. </em>*
 
-- `03-components` => [A-Design.md](./03-components/A-Design.md)
+- `04-components` => [A-Design.md](./04-components/A-Design.md)
 
 *<em> - Directory for storing assets like images and fonts. </em>*
 
-- `04-assets` => [FBF.md](./04-assets/FBF.md)
+- `05-assets` => [FBF.md](./05-assets/FBF.md)
 
 ## Extensions of VS Code 
 

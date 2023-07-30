@@ -9,7 +9,7 @@
 app.component("ProfileImage", {
   template: `
   <div class="profile-image">
-    <images :src="'03-components/02-molecules/profile-image/daniel-g-kostyushko.jpg'" class="profile-image__img" />
+    <images :src="'04-components/02-molecules/profile-image/daniel-g-kostyushko.jpg'" class="profile-image__img" />
   </div>
   `,
 });

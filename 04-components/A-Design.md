@@ -1,7 +1,7 @@
 ## Atomic Design
 
 <p align="center">
-  <img src="../04-assets/01-docs/a-design.png" alt="Atomic Design" width="700" height="200" style="border: 1px solid white; display: block; margin: 0 auto;">
+  <img src="../05-assets/01-docs/a-design.png" alt="Atomic Design" width="700" height="200" style="border: 1px solid white; display: block; margin: 0 auto;">
   <br>
   <a href="https://atomicdesign.bradfrost.com/" target="_blank">Atomic Design Structure</a>
 </p>
@@ -14,7 +14,7 @@ Atomic Design is a methodology for creating design systems by breaking down comp
 
 *<em> - In current structure sub atoms base on ITCSS structure that you can find here.  </em>*
 
-  - [ITCSS.md](./02-style/ITCSS.md)
+  - [ITCSS.md](./03-style/ITCSS.md)
 
 ## Atoms
 
