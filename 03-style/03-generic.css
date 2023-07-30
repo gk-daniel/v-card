@@ -4,7 +4,7 @@
  / -----------------------------------
  / global variables & config
  ? ===================================
- ? 02-style/03-generic.css
+ ? 03-style/03-generic.css
  ? =================================== 
 */
 
@@ -23,7 +23,7 @@ body {
   justify-content: center;
   line-height: 1.5;
   min-height: 100vh;
-  background-image: url('../04-assets/02-home/images/background.png');
+  background-image: url('../05-assets/02-home/images/background.png');
   background-color: var(--primary-bg);
   background-size: cover;
 }

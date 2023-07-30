@@ -1,7 +1,7 @@
 ## Folder-by-Feature:
 
 <p align="center">
-  <img src="../04-assets/01-docs/fbf.png" alt="Atomic Design" width="400" height="200" style="border: 1px solid white; display: block; margin: 0 auto;">
+  <img src="../05-assets/01-docs/fbf.png" alt="Atomic Design" width="400" height="200" style="border: 1px solid white; display: block; margin: 0 auto;">
   <br>
   Folder-by-Feature
 </p>

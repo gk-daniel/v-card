@@ -4,7 +4,7 @@
  / -----------------------------------
  / containers, grid system, paterns
  ? ===================================
- ? 02-style/05-objects.css
+ ? 03-style/05-objects.css
  ? =================================== 
 */
 
@@ -16,6 +16,6 @@ article {
   
 @media (min-width: 1024px) {
   article {
-    background-image: url('../04-assets/02-home/images/background.png');
+    background-image: url('../05-assets/02-home/images/background.png');
   }
 }
