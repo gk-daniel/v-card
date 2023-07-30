@@ -52,7 +52,12 @@ Here you can find technical documentation in the file system folder feed contain
 
 - `01-docs` => [INTRO.md](./01-docs/00-Introduction.md)
 
+*<em> - Directory containing scripts. </em>*
+
+- `02-scripts` => [vue.md](./02-scripts/vue.md)
+
 *<em> - Directory containing stylesheets. </em>*
+
 
 - `03-style` => [ITCSS.md](./03-style/ITCSS.md)
 
