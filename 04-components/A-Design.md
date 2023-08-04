@@ -1,5 +1,7 @@
-## Atomic Design
-
+## 
+### [V-card](../README.md) / 04-components / Atomic Design
+##
+<br>
 <p align="center">
   <img src="../05-assets/01-docs/a-design.png" alt="Atomic Design" width="700" height="200" style="border: 1px solid white; display: block; margin: 0 auto;">
   <br>
@@ -61,8 +63,3 @@ Product List: A combination of multiple product cards.
 
 Home Page: An instance of the homepage template with real product data.
 By following the Atomic Design structure, you can create a scalable and consistent design system for your project, making it easier to maintain and extend in the future.
-
-
-## 
-### [Back to README](../README.md)
-## 
