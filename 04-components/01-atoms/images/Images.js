@@ -4,9 +4,14 @@
  * =================================== 
 */
 
-app.component('images', {
+const { defineComponent } = Vue;
+
+  const Images = defineComponent({
     props: ['src'],
     template: `
-        <img :src="src" />
+      <img :src="src" />
     `,
-});  
+  });
+  
+  export default Images;
+  

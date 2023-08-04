@@ -4,7 +4,4 @@
  ? =================================== 
 */
 
-@import "./profile-action/profile-action.css";
-@import "./profile-image/profile-image.css";
-@import "./profile-links/profile-links.css";
-@import "./profile-title/profile-title.css";
+@import "./corner-ribbons/corner-ribbons.css";
