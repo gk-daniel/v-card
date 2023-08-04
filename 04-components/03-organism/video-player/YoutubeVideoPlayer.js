@@ -1,22 +1,10 @@
-/* 
- * ============================================== 
- * 03-organism/video-player/YoutubeVideoPlayer.js
- * ============================================== 
-*/
+// * ========================================================== 
+// * 04-components/04-template/video-overlay/VideoOverlay.js
+// * ========================================================== 
+const { defineComponent } = Vue;
+// * ========================================================== 
 
-app.component('YoutubeVideoPlayer', {
-  template: `
-  <div class="video-background video-wrapper">
-  <div class="video-background__overlay"></div>
-    <iframe
-      :src="videoUrlWithParams"
-      :title="'Embedded YouTube video'"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-      class="video-background__iframe"
-    ></iframe>
-  </div>  
-  `,
+const YoutubeVideoPlayer = defineComponent({
   props: {
     // parameter after {url + /embed/ + videoId}
     videoId: {
@@ -58,6 +46,18 @@ app.component('YoutubeVideoPlayer', {
       default: 0,
     },
   },
+  template: `
+    <div class="video-background video-wrapper">
+    <div class="video-background__overlay"></div>
+      <iframe
+        :src="videoUrlWithParams"
+        :title="'Embedded YouTube video'"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        class="video-background__iframe"
+      ></iframe>
+    </div>  
+  `,
   computed: {
     videoUrlWithParams() {
       const embedUrl = `https://www.youtube.com/embed/${this.videoId}`;
@@ -73,3 +73,5 @@ app.component('YoutubeVideoPlayer', {
     },
   },
 });
+
+export default YoutubeVideoPlayer;

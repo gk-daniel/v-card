@@ -4,11 +4,16 @@
   * =================================== 
 */
 
-app.component("links", {
-  props: ["href", "icons"],
+
+const { defineComponent } = Vue;
+
+const Links = defineComponent({
+  props: ['href', 'icons'],
   template: `
     <a :href="href" target="_blank" class="link link--icon">
-        <i :class="icons"></i>
+      <i :class="icons"></i>
     </a>
-`,
+  `,
 });
+
+export default Links;
