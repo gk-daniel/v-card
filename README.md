@@ -9,21 +9,7 @@
 
 
 ## Table of Contents
-<style>
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-table {
-  border-collapse: collapse;
-}
-th, td {
-  border: 1px solid black;
-  padding: 8px;
-  text-align: left;
-}
-</style>
+
 <br>
 <div class="center">
 
@@ -39,8 +25,6 @@ th, td {
 <br>
 
 ## Structure of Project
-
-<br>
 
 <table align="center">
   <tr>

@@ -27,8 +27,3 @@ One of the most significant changes in Vue 3 is the Composition API. This new AP
 | TypeScript Support       | Enhanced support for TypeScript, providing better type inference and improved editor support for static typing.     |
 | Enhanced Teleportation   | Improved mechanism for rendering content in different parts of the DOM, offering more flexibility in component design.|
 | Modern JavaScript        | Embraces the latest ECMAScript features, enabling developers to write cleaner and more concise code.                |
-
-
-## 
-### [Back to Introduction](./00-Introduction.md)
-## 

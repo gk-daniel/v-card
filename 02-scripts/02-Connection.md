@@ -133,7 +133,3 @@ app.component("Ribbons", {
 
 ### - Module Approach
 
-
-## 
-### [Back to Introduction](./00-Introduction.md)
-## 
