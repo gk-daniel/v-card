@@ -1,5 +1,8 @@
-## Inverted Triangle CSS
+## 
+### [V-card](../README.md) / 03-style / ITCSS
+##
 
+<br>
 <p align="center">
   <img src="../05-assets/01-docs/itcss.png" alt="Atomic Design" width="390" height="230" style="border: 1px solid white; display: block; margin: 0 auto;">
   <br>
@@ -122,7 +125,3 @@ The Utilities section includes helper classes and overrides that can be used to 
 ITCSS is a powerful methodology that helps maintain a scalable and organized CSS codebase. By structuring your stylesheets based on specificity, you can avoid specificity conflicts and improve code maintainability. It encourages component-based development and provides a clear separation of concerns.
 
 For more detailed information about ITCSS and its implementation, check out the official ITCSS documentation and resources.
-
-## 
-### [Back to README](../README.md)
-## 

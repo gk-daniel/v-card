@@ -7,6 +7,8 @@
  * ==============================================
 */
 
+// app.js
+
 const app = Vue.createApp({ });
 
 app.component('app', {

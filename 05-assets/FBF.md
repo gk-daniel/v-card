@@ -1,4 +1,8 @@
-## Folder-by-Feature:
+## 
+### [V-card](../README.md) / 05-assects / Folder-by-Feature
+##
+
+<br>
 
 <p align="center">
   <img src="../05-assets/01-docs/fbf.png" alt="Atomic Design" width="400" height="200" style="border: 1px solid white; display: block; margin: 0 auto;">
@@ -44,7 +48,3 @@ Scalability: As the application grows, it becomes easier to add, remove, or modi
 Collaboration: Folder-by-Feature encourages team members to work on different features independently, which can improve collaboration and productivity.
 
 Code Reusability: Encapsulating features in their own folders can lead to better code reusability across different parts of the application.
-
-## 
-### [Back to README](../README.md)
-## 
