@@ -1,0 +1,21 @@
+/* 
+ ? =================================== 
+ ? 5. Objects
+ / -----------------------------------
+ / containers, grid system, paterns
+ ? ===================================
+ ? 03-style/05-objects.css
+ ? =================================== 
+*/
+
+article {
+    background-image: unset;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+@media (min-width: 1024px) {
+  article {
+    background-image: url('../05-assets/02-home/images/background.png');
+  }
+}

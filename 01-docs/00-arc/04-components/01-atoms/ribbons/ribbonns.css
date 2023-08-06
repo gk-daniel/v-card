@@ -1,0 +1,48 @@
+/* 
+ ? =================================== 
+ ? 01-atoms/Ribbons.js
+ ? ===================================
+*/
+
+.corner-ribbons {
+    opacity: 0.1;
+    transition: 1.5s;
+}
+
+.corner-ribbons .cr {
+    font-weight: 700;
+    width: 400px;
+    padding: 16px;
+    position: absolute;
+    text-align: center;
+    color: #f0f0f0;
+    letter-spacing: 0.5em;
+    z-index: 9999;
+}
+
+.corner-ribbons .cr-sticky {
+    position: fixed;
+}
+
+/* Positions */
+
+.corner-ribbons .cr-bottom {
+    bottom: 60px;
+}
+
+.corner-ribbons .cr-left {
+    left: -100px;
+}
+
+/* Rotations */
+
+.corner-ribbons .cr-top.cr-right,
+.corner-ribbons .cr-bottom.cr-left {
+    transform: rotate(45deg);
+}
+
+/* Colors */
+
+.corner-ribbons .cr-green {
+    background-color: #00b15c;
+}

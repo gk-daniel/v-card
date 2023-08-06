@@ -1,0 +1,36 @@
+/* 
+ ? =================================== 
+ ? 3. Generic
+ / -----------------------------------
+ / global variables & config
+ ? ===================================
+ ? 03-style/03-generic.css
+ ? =================================== 
+*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+  min-height: 100vh;
+  background-image: url('../05-assets/02-home/images/background.png');
+  background-color: var(--primary-bg);
+  background-size: cover;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-image: unset;
+    transform: scale(1);
+  }
+}

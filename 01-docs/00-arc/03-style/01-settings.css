@@ -1,0 +1,22 @@
+/* 
+ ? =================================== 
+ ? 1. Settings
+ / -----------------------------------
+ / global variables & config
+ ? ===================================
+ ? 03-style/01-settings.css
+ ? =================================== 
+*/
+
+:root {
+  --primary-bg: #000;
+  --video-overlay-color: rgba(0, 0, 0, 0.15);
+  --text-color: #f1f3f3;
+  --text-secondary: #b5b9c8;
+  --accent-color: #3772ff;
+  --secondary-bg: #2c333e;
+  --link-color: #7d8396;
+  --link-hover-color: var(--text-color);
+  --btn-hover-color: var(--text-secondary);
+  --profile-hover-bg: #020e20d6;
+}

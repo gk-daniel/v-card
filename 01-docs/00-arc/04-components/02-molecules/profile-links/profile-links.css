@@ -1,0 +1,43 @@
+/* 
+ ? =============================================== 
+ ? 02-molecules/profile-links/profile-links.css
+ ? =============================================== 
+*/
+
+.profile-links {
+  margin-top: 2.5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--link-color);
+  margin: 0 0.9rem;
+  font-size: 28px;
+}
+
+.link i {
+  transition: 0.8s;
+  font-size: 1.3em;
+}
+
+/* 
+? -------------- 
+? - Desktop
+? --------------
+*/
+
+@media (min-width: 1024px) {
+  .profile-links {
+    margin-top: 1.5rem;
+  }
+
+  .link {
+    font-size: 18px;
+    margin: 0 0.5rem;
+  }
+
+  .link i:hover,
+  .link i:focus {
+    color: var(--link-hover-color);
+  }
+}

@@ -1,0 +1,93 @@
+/* 
+ ? =================================== 
+ ? 6. Components
+ / -----------------------------------
+ / html objects
+ ? ===================================
+ ? 03-style/06-components.css
+ ? =================================== 
+*/
+
+/* 
+ ? -------------- 
+ ? - Button
+ ? --------------
+*/
+
+.btn {
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  line-height: 1;
+  transition: 0.15s ease;
+}
+
+.btn--primary {
+  border-radius: 99em;
+  letter-spacing: 2px;
+  padding: 33px 35px;
+  text-transform: uppercase;
+  background-color: var(--accent-color);
+  background-image: linear-gradient(135deg, #5587ff, var(--accent-color));
+  color: var(--text-color);
+}
+
+.btn--primary a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 5vw 6vw;
+  text-transform: uppercase;
+}
+
+.btn--icon {
+  transition: 0.8s;
+  font-size: 22px;
+  height: 62px;
+  width: 62px;
+  margin: 0 10px;
+  border-radius: 50%;
+  border: 3px solid var(--secondary-bg);
+  color: var(--text-secondary);
+}
+
+.btn--icon i {
+  transition: 0.8s;
+  font-size: 1.25em;
+  color: var(--link-color);
+}
+
+/* 
+ ? -------------- 
+ ? - Desktop
+ ? --------------
+*/
+  
+@media (min-width: 1024px) {
+  /* 
+   ? -------------- 
+   ? - Button
+   ? --------------
+  */
+
+  .btn--icon {
+      margin: 0 5px;
+      font-size: 16px;
+      height: 42px;
+      width: 42px;
+  }
+
+  .btn--icon:hover,
+  .btn--icon:focus {
+      border-color: var(--btn-hover-color);
+  }
+
+  .btn--icon:hover i,
+  .btn--icon:focus i {
+      color: var(--link-hover-color);
+  }
+}

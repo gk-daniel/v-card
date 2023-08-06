@@ -1,0 +1,21 @@
+/* 
+ ? =================================== 
+ ? Global Style | ITCSS
+ ? =================================== 
+*/
+
+@import "./01-settings.css";
+@import "./03-generic.css";
+@import "./04-elements.css";
+@import "./05-objects.css";
+@import "./06-components.css";
+
+/* 
+ ? =================================== 
+ ? Component Style | A-Design
+ ? =================================== 
+*/
+
+@import "../04-components/01-atoms/index.css";
+@import "../04-components/02-molecules/index.css";
+@import "../04-components/03-organism/index.css";
