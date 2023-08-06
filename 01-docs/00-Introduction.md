@@ -30,3 +30,9 @@ cd v-card
 ```css
 index.html
 ```  
+
+## Additional
+
+1. This project uses type="module" connection, old project implementation with global CDN connection can be found here: [../01-docs/00-archive/00-Archive.md](../01-docs/00-archive/00-Archive.md) .
+
+2. Also read about the implementation difference [../02-scripts/02-Connection.md](../02-scripts/02-Connection.md) .
