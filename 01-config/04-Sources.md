@@ -1,5 +1,5 @@
 ## 
-### [V-card](../README.md) / [01-docs](./00-Introduction.md) / 04-Source
+### [V-card](../README.md) / [01-config](./00-Introduction.md) / 04-Source
 ## 
 
 *<em>- Links to used sources</em>*

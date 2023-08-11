@@ -1,5 +1,5 @@
 ## 
-### [V-card](../../README.md) / [01-docs](../00-Introduction.md) / 00-archive
+### [V-card](../../README.md) / [01-config](../00-Introduction.md) / 00-archive
 ## 
 
 Here you can find information on how to connect this project using a global CDN connection.

@@ -11,7 +11,7 @@ We have two ways to include vue. One is using CDN and the other is CLI. Each of 
 
 CDN connection means injecting a script into index.html and this approach can be implemented as follows. 
 
-**? | this implementation can be found [../01-docs/00-archive/00-Archive.md](../01-docs/00-archive/00-Archive.md)**
+**? | this implementation can be found [../01-config/00-archive/00-Archive.md](../01-config/00-archive/00-Archive.md)**
 
 ```html
 <!DOCTYPE html>

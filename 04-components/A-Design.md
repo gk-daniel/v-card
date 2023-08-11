@@ -16,7 +16,7 @@ Atomic Design is a methodology for creating design systems by breaking down comp
 
 *<em> - In current structure sub atoms base on ITCSS structure that you can find here.  </em>*
 
-  - [ITCSS.md](./03-style/ITCSS.md)
+  - [ITCSS.md](../03-style/ITCSS.md)
 
 ## Atoms
 
