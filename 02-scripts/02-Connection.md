@@ -1,15 +1,16 @@
-## 
+##
+
 ### [V-card](../README.md) / [02-scripts](./00-Introduction.md) / 02-Connection
-## 
+
+##
 
 We have two ways to include vue. One is using CDN and the other is CLI. Each of them has its own advantages, however, for large projects, a CLI connection is suitable, while for small ones, a CDN will be preferable.
 
-##  1. CDN connection
-
+## 1. CDN connection
 
 ### - Global Approach
 
-CDN connection means injecting a script into index.html and this approach can be implemented as follows. 
+CDN connection means injecting a script into index.html and this approach can be implemented as follows.
 
 **? | this implementation can be found [../01-config/02-archive/00-Archive.md](../01-config/02-archive/00-Archive.md)**
 
@@ -137,7 +138,6 @@ app.component("Ribbons", {
 
 **? | this approach is used in the current project**
 
-
 Modular scripting means including just one js file in html and allowing components to be imported into js files without using tools that mimic this behavior and then build applications like webpack
 
 ```html
@@ -164,7 +164,7 @@ Modular scripting means including just one js file in html and allowing componen
 </html>
 ```  
 
-Here you can find app.js 
+Here you can find app.js
 
 ```javascript
 // * ========================================================== 
@@ -203,7 +203,7 @@ app.mount('#app');
 
 ```  
 
-and commponent that we import 
+and commponent that we import
 
 ```javascript
 // * ========================================================== 
