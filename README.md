@@ -26,6 +26,8 @@
 
 ## Structure of Project
 
+<br>
+
 <table align="center">
   <tr>
     <td align="center"><img src="./05-assets/01-docs/vue-logo.png" height="80px" width="100px"></td>
@@ -41,7 +43,6 @@
   </tr>
 </table>
 
-<br>
 
 
 ## Additional Information 
