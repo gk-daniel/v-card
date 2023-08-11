@@ -48,4 +48,4 @@ index.html
 
 | Version              | Description                                |
 |----------------------|--------------------------------------------|
-[1. Global](./02-archive/00-Archive.md) | This project uses type="module" connection, old project implementation with global CDN connection can be found here |
+[1. Global CDN](./02-archive/00-Archive.md) | This project uses type="module" connection, old project implementation with global CDN connection can be found here |
