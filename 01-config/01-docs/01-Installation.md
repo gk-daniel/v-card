@@ -1,5 +1,5 @@
 ## 
-### [V-card](../README.md) / [01-config](./00-Introduction.md) / 01-Installation
+### [V-card](../../README.md) / [01-config](./00-Introduction.md) / 01-Installation
 ## 
 
 *<em> - Clone project to your local machine: </em>*

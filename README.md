@@ -15,7 +15,7 @@
 
 | Section              | Description                                |
 |----------------------|--------------------------------------------|
-|[01-config](./01-config/00-Introduction.md) | Directory containing general information |
+|[01-config](./01-config/01-docs/00-Introduction.md) | Directory containing general information |
 |[02-scripts](./02-scripts/00-Introduction.md) | Directory containing scripts |
 |[03-style](./03-style/ITCSS.md) | Directory containing stylesheets |
 |[04-components](./04-components/A-Design.md) | Directory containing Vue components |
