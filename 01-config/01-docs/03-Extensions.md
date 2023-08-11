@@ -1,5 +1,5 @@
 ## 
-### [V-card](../../README.md) / [01-config](./00-Introduction.md) / 03-Extensions
+### [V-card](../../README.md) / [01-config](../01-config.md) / 03-Extensions
 ## 
 
 *<em>- Recommended extensions for VS Code</em>*

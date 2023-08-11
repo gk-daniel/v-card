@@ -1,9 +1,10 @@
 ## 
-### [V-card](../../README.md) / [01-config](../01-docs/00-Introduction.md) / 02-archive
+### [V-card](../../README.md) / [01-config](../01-config.md) / 02-archive
 ## 
 
 Here you can find information on how to connect this project using a global CDN connection.
 
+Also read about the implementation difference [../02-scripts/02-Connection.md](../../02-scripts/02-Connection.md) .
 
 We have two ways to include vue. One is using CDN and the other is CLI. Each of them has its own advantages, however, for large projects, a CLI connection is suitable, while for small ones, a CDN will be preferable.
 
