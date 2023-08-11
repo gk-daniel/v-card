@@ -1,5 +1,5 @@
 ## 
-### [V-card](../README.md) / [01-docs](./00-Introduction.md) / 05-License
+### [V-card](../../README.md) / [01-config](./00-Introduction.md) / 05-License
 ## 
 
 This project is licensed under the [MIT License](LICENSE).

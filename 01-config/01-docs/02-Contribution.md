@@ -1,5 +1,5 @@
 ## 
-### [V-card](../README.md) / [01-docs](./00-Introduction.md) / 02-Contribution
+### [V-card](../../README.md) / [01-config](./00-Introduction.md) / 02-Contribution
 ## 
 
 Here you can find guidline about hot to better contribute in project. 
@@ -80,7 +80,3 @@ If everything is correct, comment on the MR with the following message:
 | ✓ correct branch name  | ✓ correct css syntax    | ✓ correct js syntax           |
 | ✓ correct commits       |                        | ✓ correct refreshing the page |
 | ✓ correct code syntax   |                        | ✓ correct configuration       |
-## 
-### [Back to README](../README.md)
-
-## 
